@@ -1,0 +1,10 @@
+<?php
+$n=678585;
+$sum,rem;
+while(n!=0){
+$rem=$n%10;
+$sum +=$rem;
+$n=$n/10;
+
+}
+echo $sum

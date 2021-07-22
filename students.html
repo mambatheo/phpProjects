@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="Project1.css">
+<meta charaset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title> </title>
+</head>
+
+<body>
+<form action="students.php" method="post">
+	<tr>
+		<td>Name:</td>
+		<td>
+			<input type="text" name="name">
+		</td>
+			</tr><br>
+	<tr><br>
+		<td>Marks:</td>
+		<td>
+			<input type="text" name="Marks">
+		</td>
+	</tr><br>
+
+		<tr>
+			<td>Gender:</td>
+			<select name="gender" id="Gender">
+				<option value="Male">Male</option>
+				<option value="Female">Female</option>
+				<option value="Other">Other</option>
+			</select>
+		</tr><br>
+		<tr>
+			<td>Email:</td>
+			<input type="text" name="email">
+			
+		</tr><br>
+	<tr>
+	<td>Nationality</td>
+  <input list="Nationalities" name="nationality" id="nationalities">
+  <datalist id="Nationalities">
+   <option value="Rwandan">
+    <option value="Ugandan">
+    <option value="Burundi">
+    <option value="Kenyan">
+   
+  </datalist>
+	</tr>
+	
+	
+	<button type="submit">Submit</button>
+</form>
+	
+</body>
+</html>
